@@ -16,7 +16,7 @@ var kontoret = [
         bruk: {
           turidkode: {
             beskrivelse:
-              "Du taster inn koden du fant på bildet til Turid, og plutselig er du logget inn på Turids konto på maskinen til Tommy. WTF? Det ser jaggu ut til at flere bruker maskinen til Tommy. Teksten 'Velkommen Turidshosting, Porsgrunns fjerde beste hostingtjeneste.' blinker mot deg. Under står teksten, 'dagens kode er 1337'",
+              "Du taster inn koden du fant på bildet til Turid, og plutselig er du logget inn på Turids konto på maskinen til Tommy. WTF? Det ser jaggu ut til at flere bruker maskinen til Tommy. Teksten 'Velkommen Turidshosting, Porsgrunns fjerde beste hostingtjeneste.' blinker mot deg. Under står teksten, 'Dagens kistekode er 1337'",
             gjenstand: "dagenskode",
           },
           tommykode: {
@@ -112,6 +112,8 @@ var kontoret = [
     steder: [
       {
         navn: "Serveren til Toms Hosting",
+        beskrivelse:
+          "Du tar en titt på serveren til Toms Hosting. En gammel hightower maskin med fire 2x speed cd-brennere, og turboknapp. Maskinen styres med en 17-tommer MAG-skjerm og et Keytronic tastur med Intellimouse. Du må kunne brukernavn og passord for å logge inn.",
         bruk: {
           turidkode: {
             beskrivelse:
@@ -121,7 +123,7 @@ var kontoret = [
             beskrivelse:
               "Det skjer ingenting når du taster inn koden til Tommy.",
           },
-          tommykode: {
+          minnepenn: {
             beskrivelse:
               "Det skjer ingenting når du setter inn minnepinnen dessverre.",
           },
