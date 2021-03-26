@@ -127,6 +127,10 @@ var kontoret = [
             beskrivelse:
               "Det skjer ingenting når du setter inn minnepinnen dessverre.",
           },
+          "kode:turidruler": {
+            beskrivelse:
+              "Du logger inn som Tom på serveren. Alle mapper er endra til Turidhosting, porsgrunns fjerde beste hosting-tjeneste.",
+          },
         },
       },
       {
