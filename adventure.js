@@ -324,7 +324,7 @@ let welcomeHighlight =
   "color: white; font-weight: bold; background: #8c17e7;  font-size: 1rem;";
 let welcome = "color: white; background: #8c17e7;  font-size: 1rem;";
 console.log(
-  "%c** %cTOMS %cROBOTSTYRING **",
+  "%c** %cTOMSBOT %cROBOTSTYRING AV TOMS**",
   welcome,
   welcomeHighlight,
   welcome
