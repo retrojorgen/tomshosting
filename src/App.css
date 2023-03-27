@@ -10,7 +10,7 @@ html {
   font-family: "Comic Sans MS", "Marker Felt", sans-serif;
 }
 .header {
-  background: url(img/starbackground.gif);
+  background: url(/img/starbackground.gif);
   padding: 40px;
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@ html {
   flex-direction: column;
 }
 .tjenester {
-  background: url(img/wa113.gif);
+  background: url(/img/wa113.gif);
   padding: 40px;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@ html {
 .hardcore.prices,
 .hardcore.tjenester-list
 .hardcore.kontakt-meg {
-  background: url(img/muscle.gif);
+  background: url(/img/muscle.gif);
   color: white;
 }
 
@@ -51,7 +51,7 @@ h1.hardcore::before {
 }
 
 .kontakt-meg {
-  background: url(img/nybkgtileani.gif);
+  background: url(/img/nybkgtileani.gif);
   padding: 40px;
   display: flex;
   align-items: center;
@@ -59,7 +59,7 @@ h1.hardcore::before {
   flex-direction: column;
 }
 .links {
-  background: url(img/mnglitranitile.gif);
+  background: url(/img/mnglitranitile.gif);
   padding: 40px;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ h1.hardcore::before {
 }
 
 .prices {
-  background: url(img/blueball.gif);
+  background: url(/img/blueball.gif);
   padding: 40px;
   display: flex;
   align-items: center;
