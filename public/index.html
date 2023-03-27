@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Toms Hosting</title>
+    <meta charset="UTF-8" />
+    <script src="adventure.js" defer></script>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: "Comic Sans MS", "Marker Felt", sans-serif;
+      }
+      .header {
+        background: url(img/starbackground.gif);
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .tjenester {
+        background: url(img/wa113.gif);
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .kontakt-meg {
+        background: url(img/nybkgtileani.gif);
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .links {
+        background: url(img/mnglitranitile.gif);
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .prices {
+        background: url(img/blueball.gif);
+        padding: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .header h1,
+      .tjenester h1,
+      .kontakt-meg h1,
+      .links h1,
+      .prices h1 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 80px;
+        color: #2d6bff;
+        text-shadow: 0 3px 0 blue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .header h2,
+      .tjenester h2,
+      .kontakt-meg h2,
+      .links h2,
+      .prices h2 {
+        text-transform: uppercase;
+        font-weight: regular;
+        color: #2d6bff;
+        text-shadow: 0 3px 0 blue;
+        text-align: center;
+      }
+
+      .header p,
+      .tjenester p,
+      .kontakt-meg p,
+      .links p,
+      .prices p {
+        text-transform: uppercase;
+        font-weight: regular;
+        color: #2d6bff;
+        font-weight: bold;
+      }
+
+      .kontakt-meg h1,
+      .kontakt-meg h2,
+      .kontakt-meg a {
+        color: #4aff2d;
+        text-shadow: 0 3px 0 #a314d2;
+      }
+
+      .links h1,
+      .links h2,
+      .links a {
+        color: #2dd5ff;
+        text-shadow: 0 3px 0 blue;
+      }
+
+      .tjenester h1,
+      .tjenester h2 {
+        color: #ff2d2d;
+        text-shadow: 0 3px 0 #880430;
+      }
+      .tjenester-list {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .tjenester-list li {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .x-files-banner {
+        padding: 20px;
+        background: black;
+        color: green;
+        text-transform: uppercase;
+        text-shadow: 0 0 20px green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .x-files-banner a,
+      .x-files-banner a:visited {
+        color: green;
+        text-transform: uppercase;
+        text-shadow: 0 0 20px lime;
+        font-size: 20px;
+      }
+      .accenture-banner a {
+        text-decoration: none;
+      }
+      .accenture-banner {
+        padding: 20px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .accenture-banner article {
+        background: #d2d2d2;
+        max-width: 980px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="x-files-banner">
+      <img src="img/x.gif" />
+      <a href="eksfeils.html">Sannheten er der ute. Besøk siden.</a>
+    </div>
+    <header class="header">
+      <img src="img/welcome.gif" />
+      <h1>Til Toms hosting!</h1>
+      <h2>Porsgrunns tredje beste internetthosting!</h2>
+      <img src="img/penguins.gif" />
+    </header>
+    <div class="tjenester">
+      <h1>Våre (mine) tjenester</h1>
+      <h2>Trenger du en nettside til:</h2>
+      <ul class="tjenester-list">
+        <li>
+          <img src="img/ChineseMan.gif" />
+          <h3>Din middelmådige kinarestaurant</h3>
+        </li>
+        <li>
+          <img src="img/BurgerDance2.gif" />
+          <h3>Burgerkjede-konseptet du har stjælt fra McDonalds</h3>
+        </li>
+        <li>
+          <img src="img/mayorbaner.gif" />
+          <h3>
+            Eller ditt fullstendig feilslåtte forsøk på å være en "kul" ordfører
+          </h3>
+        </li>
+      </ul>
+      <p>
+        Da er Toms hosting ditt tredjevalg i Porsgrunn.
+        <u>Garantert tredje best på service!</u>
+      </p>
+    </div>
+
+    <div class="prices">
+      <h1>Priser</h1>
+      <h2>
+        Du finner bare bedre priser hos to andre hosting-tjenester i Porsgrunn!
+      </h2>
+      <ul class="tjenester-list">
+        <li>
+          <img src="img/oldman_walking_sm_wht.gif" />
+          <h3>Henry (billigst)</h3>
+          <ol>
+            <li>Plass på ei gammel server i kjellerstua mi</li>
+            <li>10 mb fillagring</li>
+            <li>Maks html3</li>
+            <li>ingen CSS-støtte</li>
+            <li>Javascript må støtte IE6</li>
+            <li>
+              ** OBS, serveren går ned av og til. Når bikkja mi Horg pisser på
+              strømforsyninga.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <img src="img/bmuscle.gif" />
+          <h3>Nils (middels)</h3>
+          <ol>
+            <li>Del plass på ei flunka ny server på kjøkkenet mitt</li>
+            <li>
+              10 gb lagring på ekstern Western Digital USBDisk (ser ut som ei
+              bok!)
+            </li>
+            <li>Støtte for CSS2</li>
+            <li>Du kan bruke XHTML!</li>
+            <li>Kommer med Angular</li>
+            <li>
+              ** OBS, Har mista root-passordet, så serveren kan være stabil av
+              og til.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <img src="img/Misc_muscle_man.gif" />
+          <h3>Carl (Proff)</h3>
+          <ol>
+            <li>
+              Denne serveren står ikke i huset mitt, men ute i vedskjulet. Der
+              er det dritkaldt, som gir optimale forhold!
+            </li>
+            <li>
+              Du får tilgang på hele serveren, og kan sette inn den disken du
+              vil selv. Kult om du tar med en big meny fra bergbys nårru stikker
+              innom. Uten dressing!
+            </li>
+            <li>State of the art html4. Nyeste av det nye.</li>
+            <li>Støtte for mongodb.</li>
+            <li>
+              4 gratis e-postadresser følger med. (dittnavn@tomshosting.no)
+            </li>
+            <li>
+              ** OBS! 99% oppetid, men i fjor gikk den ned pga naboen min Gerd
+              kjørte grasskleppern inn i skjulet mitt.
+            </li>
+          </ol>
+        </li>
+      </ul>
+      <p>De tredje beste hostingprisene i Porsgrunn. <u>Garantert!</u></p>
+    </div>
+
+    <div class="kontakt-meg">
+      <h1>Klar til å sette i gang?</h1>
+      <h2>
+        mail meg da vel:
+        <a href="mailto:tom@tomshosting.no">tom@tomshosting.no</a>
+      </h2>
+      <img src="img/email_bleu.gif" />
+    </div>
+    <div class="links">
+      <h1>Vi (jeg) tilbyr allerede mine tjenester til</h1>
+      <h2>
+        Norges første nettavis for utviklere
+        <a href="https://www.kode24.no">kode24.no</a>
+      </h2>
+      <img src="img/hhotlinks.gif" />
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-119990442-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-119990442-3");
+    </script>
+  </body>
+</html>
